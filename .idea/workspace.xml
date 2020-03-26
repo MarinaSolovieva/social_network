@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a528728e-94d8-4025-8079-ea57833e904f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Music/Music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/News/News.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/unnamed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Settings/Settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Spin-1s-200px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logos-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/Users-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,12 +103,24 @@
       <workItem from="1584532689258" duration="6976000" />
       <workItem from="1584540650515" duration="108403000" />
       <workItem from="1585227986358" duration="4884000" />
-      <workItem from="1585247621950" duration="505000" />
+      <workItem from="1585247621950" duration="873000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1585248448330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585248448330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="77" key="#ESLint" timestamp="1583689047409">
@@ -177,6 +139,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1585062161726" />
+    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1585248446728">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1585248446728" />
+    <state x="147" y="72" key="DiffContextDialog" timestamp="1585248329970">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="147" y="72" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1585248329970" />
     <state x="549" y="160" key="FileChooserDialogImpl" timestamp="1583004631818">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
