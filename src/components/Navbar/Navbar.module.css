@@ -1,0 +1,25 @@
+.nav {
+    grid-area: n;
+    background: yellow;
+}
+
+
+
+
+.item {
+    text-decoration: none;
+    color: blue;
+
+}
+.list {
+    list-style: none;
+}
+.item:hover {
+    background: darksalmon;
+}
+.active {
+    color: deeppink;
+}
+
+
+
