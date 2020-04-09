@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a528728e-94d8-4025-8079-ea57833e904f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/validators/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
     </list>
@@ -54,18 +52,18 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Profile\MyPosts" />
-      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Profile" />
-      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Navbar" />
-      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Header" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Header" />
       <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\redux" />
       <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Profile" />
       <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\img" />
       <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\users" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Profile" />
+      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Navbar" />
+      <recent name="C:\Users\Xiaomi\WebstormProjects\untitled4\src\components\Header" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -110,7 +108,7 @@
       <workItem from="1584532689258" duration="6976000" />
       <workItem from="1584540650515" duration="108403000" />
       <workItem from="1585227986358" duration="4884000" />
-      <workItem from="1585247621950" duration="78689000" />
+      <workItem from="1585247621950" duration="83141000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585248448330</created>
@@ -147,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586299771095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add validations">
+      <created>1586453749705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586453749705</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +160,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="add validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="77" key="#ESLint" timestamp="1583689047409">
@@ -174,10 +180,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1585062161726" />
-    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1586299770167">
+    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1586453748836">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586299770167" />
+    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586453748836" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1585248573465">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -186,22 +192,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583004631818" />
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1586452096590">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1586456708720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586452096590" />
-    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1586452096590">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1586456708720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586452096590" />
-    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1586452096590">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1586456708720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586452096590" />
-    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1586452096590">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1586456708720">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586452096590" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
     <state width="1515" height="265" key="GridCell.Tab.1.bottom" timestamp="1584982569965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -258,10 +264,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1582835787029" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586299780989">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586453774110">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586299780989" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586453774110" />
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585248607370">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
