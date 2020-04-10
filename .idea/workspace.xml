@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a528728e-94d8-4025-8079-ea57833e904f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
     </list>
@@ -192,22 +191,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583004631818" />
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1586456708720">
+    <state width="757" height="213" key="GridCell.Tab.0.bottom" timestamp="1586522208001">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
-    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1586456708720">
+    <state width="757" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586522208001" />
+    <state width="757" height="213" key="GridCell.Tab.0.center" timestamp="1586522208001">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
-    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1586456708720">
+    <state width="757" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586522208001" />
+    <state width="757" height="213" key="GridCell.Tab.0.left" timestamp="1586522208001">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
-    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1586456708720">
+    <state width="757" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586522208001" />
+    <state width="757" height="213" key="GridCell.Tab.0.right" timestamp="1586522208001">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586456708720" />
+    <state width="757" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586522208001" />
     <state width="1515" height="265" key="GridCell.Tab.1.bottom" timestamp="1584982569965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -272,6 +271,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1585248607370" />
+    <state x="562" y="266" key="git4idea.ui.GitUnstashDialog" timestamp="1586470540075">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="562" y="266" key="git4idea.ui.GitUnstashDialog/0.0.1536.834@0.0.1536.834" timestamp="1586470540075" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1584200190942">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
