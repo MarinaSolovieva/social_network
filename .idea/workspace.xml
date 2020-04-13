@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a528728e-94d8-4025-8079-ea57833e904f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586700687906</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add hooks (useState, useEffect) to ProfileStatusWithHooks.js">
+      <created>1586716149344</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586716149344</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +180,8 @@
     <MESSAGE value="add validations" />
     <MESSAGE value="stopSubmit" />
     <MESSAGE value="add selectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="add selectors" />
+    <MESSAGE value="add hooks (useState, useEffect) to ProfileStatusWithHooks.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hooks (useState, useEffect) to ProfileStatusWithHooks.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="77" key="#ESLint" timestamp="1583689047409">
@@ -196,10 +200,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1585062161726" />
-    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1586700687209">
+    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1586716148632">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586700687209" />
+    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586716148632" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1585248573465">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -208,22 +212,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583004631818" />
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1586716046859">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1586796388549">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586716046859" />
-    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1586716046858">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586796388549" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1586796388548">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586716046858" />
-    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1586716046858">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586796388548" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1586796388547">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586716046858" />
-    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1586716046858">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586796388547" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1586796388548">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586716046858" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586796388548" />
     <state width="1515" height="265" key="GridCell.Tab.1.bottom" timestamp="1584982569965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -280,10 +284,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1582835787029" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586700693094">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586716155467">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586700693094" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586716155467" />
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585248607370">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
