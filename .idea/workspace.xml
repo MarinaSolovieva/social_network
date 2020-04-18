@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a528728e-94d8-4025-8079-ea57833e904f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/Paginator/Paginator.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/users/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/object-helpers/object-helpers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Users-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586869742524</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="рефакторинг и в т.ч. Paginator.js">
+      <created>1587215553600</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587215553600</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +277,8 @@
     <MESSAGE value="add hooks (useState, useEffect) to ProfileStatusWithHooks.js" />
     <MESSAGE value="add React.memo to MyPosts.js" />
     <MESSAGE value="add testing to profile-reducer.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add testing to profile-reducer.js" />
+    <MESSAGE value="рефакторинг и в т.ч. Paginator.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="рефакторинг и в т.ч. Paginator.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="77" key="#ESLint" timestamp="1583689047409">
@@ -299,10 +297,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1586881940263" />
-    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1586869741896">
+    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1587215552903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586869741896" />
+    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587215552903" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1585248573465">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -311,22 +309,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583004631818" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1587213708803">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1587216684476">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587213708803" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1587213708803">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587216684476" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1587216684476">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587213708803" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1587213708803">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587216684476" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1587216684476">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587213708803" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1587213708803">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587216684476" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1587216684476">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587213708803" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587216684476" />
     <state width="1515" height="265" key="GridCell.Tab.1.bottom" timestamp="1584982569965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -383,10 +381,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1582835787029" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586869749570">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587215558162">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586869749570" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587215558162" />
     <state x="578" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585248607370">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
