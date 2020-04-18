@@ -5,10 +5,9 @@ import {NavLink} from "react-router-dom";
 import Paginator from "../common/Paginator/Paginator";
 
 
-
 let Users = ({currentPage,onPageChanged,totalUsersCount,pageSize,...props}) => {
     return <div>
-       <Paginator currentPage={currentPage} onPageChanged={onPageChanged} totalUsersCount={totalUsersCount} pageSize={pageSize}  />
+        <Paginator currentPage={currentPage} onPageChanged={onPageChanged} totalUsersCount={totalUsersCount} pageSize={pageSize}  />
         {
             props.users.map(u => <div key={u.id}>
                <span>
