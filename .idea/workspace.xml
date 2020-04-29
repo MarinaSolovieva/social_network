@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a528728e-94d8-4025-8079-ea57833e904f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileStatusWithHooks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profileinfo/Profileinfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profileinfo/ProfileDataForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -191,7 +195,7 @@
       <workItem from="1584540650515" duration="108403000" />
       <workItem from="1585227986358" duration="4884000" />
       <workItem from="1585247621950" duration="83141000" />
-      <workItem from="1587297902721" duration="12019000" />
+      <workItem from="1587297902721" duration="25809000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1585248448330</created>
@@ -305,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587926271573</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add change photo to Profile.js">
+      <created>1588020365040</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1588020365040</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,7 +348,8 @@
     <MESSAGE value="add test component to ProfileStatus.js" />
     <MESSAGE value="add Paginator" />
     <MESSAGE value="add React.lazy and React.Suspence to App.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add React.lazy and React.Suspence to App.js" />
+    <MESSAGE value="add change photo to Profile.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add change photo to Profile.js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="77" key="#ESLint" timestamp="1583689047409">
@@ -352,14 +364,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1582750819267" />
-    <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586881940263">
+    <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588189277536">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1586881940263" />
-    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1587926270485">
+    <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1588189277536" />
+    <state x="393" y="13" key="CommitChangelistDialog2" timestamp="1588020364310">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587926270485" />
+    <state x="393" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1588020364310" />
     <state x="147" y="72" key="DiffContextDialog" timestamp="1585248573465">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -368,22 +380,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="160" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1583004631818" />
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1588013762057">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom" timestamp="1588186619761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588013762057" />
-    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1588013762057">
+    <state width="1515" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588186619761" />
+    <state width="1515" height="213" key="GridCell.Tab.0.center" timestamp="1588186619761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588013762057" />
-    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1588013762057">
+    <state width="1515" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588186619761" />
+    <state width="1515" height="213" key="GridCell.Tab.0.left" timestamp="1588186619761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588013762057" />
-    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1588013762057">
+    <state width="1515" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588186619761" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right" timestamp="1588186619761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588013762057" />
+    <state width="1515" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588186619761" />
     <state width="1515" height="265" key="GridCell.Tab.1.bottom" timestamp="1584982569965">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -440,10 +452,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1582835787029" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587926278074">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1588020397403">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587926278074" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1588020397403" />
     <state x="93" y="93" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587248283318">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
