@@ -16,3 +16,9 @@
 .contact {
     padding-left: 10px;
 }
+
+.formSummaryError {
+    border: red 2px solid;
+    padding: 5px;
+    color: red;
+}
